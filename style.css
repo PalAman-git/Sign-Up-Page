@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caramel&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: poppins;
+
+}
+
+.main-div {
+    height: 40rem;
+    width: 30rem;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.socials{
+    margin: 2rem auto;
+
+    /* margin-top: 3rem; */
+    position: relative;
+    top: 2rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin: 0rem 1rem;
+    /* border: 2px solid blue; */
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    /* padding: 1rem; */
+    /* filter: invert(); */
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 3rem;
+    font-size: 2rem;
+}
+
+.input-group {
+    width: 25rem;
+    /* border: 2px solid red; */
+    /* margin: auto; */
+    top: 2rem;
+    position: relative;
+}
+
+.input-field {
+    /* position: absolute; */
+    margin:2rem auto;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.input {
+    width: 90%;
+    padding: 0.5rem;
+    float: right;
+    position: relative;
+}
+
+.input-icons {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    top: 0px;
+    right: 10px;    
+}
+
+.button {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 1rem; */
+    align-items: center;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 5px 40px;
+    color: white;
+    /* position: absolute; */
+    vertical-align: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(8, 40, 142, 1) 51%, rgba(6, 90, 175, 1) 69%, rgba(0, 212, 255, 1) 100%);
+    top: 22rem;
+    cursor: pointer;
+}
